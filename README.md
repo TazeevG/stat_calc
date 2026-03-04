@@ -62,12 +62,10 @@ make
 ### Параметры командной строки
 
 ```bash
-./csv_median_calculator -cfg <path>      # путь к конфигу
-./csv_median_calculator -config <path>   # альтернативный вариант
-./csv_median_calculator --help           # справка
+./csv_median_calculator --config <path>   # альтернативный вариант
 ```
 
-Если аргументы не указаны, приложение ищет `config.toml` в директории с исполняемым файлом.
+Если аргументы не указаны, приложение ищет `config.toml` в директории проекта
 
 ## Формат входных файлов
 
